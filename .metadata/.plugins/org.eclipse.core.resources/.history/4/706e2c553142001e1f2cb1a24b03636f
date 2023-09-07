@@ -1,0 +1,30 @@
+package com.Controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.Entity.Mobile;
+
+public class tst {
+public static void main(String[] args) {
+	 Mobile mobs = new Mobile();
+	  mobs.setMnum(94912);
+	  mobs.setMsim("jio");
+	  
+	  
+	  Mobile mobs1 = new Mobile();
+	  mobs.setMnum(8500); 
+	  mobs.setMsim("airtel");
+	  
+	  
+	  Mobile mobs2 = new Mobile();
+	  mobs.setMnum(78945);
+	  mobs.setMsim("bsnl");
+	  
+	  List<Mobile> mob = new ArrayList<>();
+	  mob.add(mobs);
+	  mob.add(mobs1);
+	  mob.add(mobs2);
+	  System.out.println(mob);
+}
+}

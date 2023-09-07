@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;adharCardProject&apos; to &apos;zzzAdharCardProjectJDBC&apos;" description="Rename resource &apos;adharCardProject&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/adharCardProject" name="zzzAdharCardProjectJDBC" stamp="1691378446570" updateReferences="true"/>
+</session>

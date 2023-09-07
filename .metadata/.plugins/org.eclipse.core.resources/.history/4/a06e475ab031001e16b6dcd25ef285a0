@@ -1,0 +1,19 @@
+package com.first;
+
+public class Dao {
+	public void insert() {
+		try {
+			Class c = Class.forName("com.mysql.cj.jdbc.Driver");
+			System.out.println(c);
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static void main(String[] args) {
+		
+		Dao d  = new Dao();
+		d.insert();
+	}
+
+}

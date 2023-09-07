@@ -1,0 +1,23 @@
+package com.first;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class Dao {
+	public void insert() {
+		try {
+			Class c = Class.forName("com.mysql.cj.jdbc.Driver");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root", "root");
+			System.out.println(con);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static void main(String[] args) {
+		
+		Dao d  = new Dao();
+		d.insert();
+	}
+
+}

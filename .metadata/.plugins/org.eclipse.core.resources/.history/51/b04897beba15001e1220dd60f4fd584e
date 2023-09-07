@@ -1,0 +1,23 @@
+package Introduction;
+
+public class LL {
+	//create  a Node
+	
+	class Node{
+		//node has data and adress of next node(of Node type)
+		
+		String data;
+		Node next;
+		
+		public Node(String data) {// Node has String data  and Node next so we have 
+			//to give those values to constructor
+			this.data =data;
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

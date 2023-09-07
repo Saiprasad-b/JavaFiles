@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Maps&apos; to &apos;com.hashmap&apos;&#x0D;&#x0A;- Original project: &apos;Collections&apos;&#x0D;&#x0A;- Original element: &apos;Collections/src/Maps&apos;&#x0D;&#x0A;- Renamed element: &apos;Collections/src/com.hashmap&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;Maps&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Maps" name="com.hashmap" qualified="false" references="true" stamp="1688446367239" textual="false" version="1.0"/>
+</session>

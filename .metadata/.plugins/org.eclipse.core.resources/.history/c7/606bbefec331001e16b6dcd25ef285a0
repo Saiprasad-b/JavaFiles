@@ -1,0 +1,31 @@
+package com.first;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+
+public class Dao {
+	public void insert() {
+		try {
+			Class c = Class.forName("com.mysql.cj.jdbc.Driver");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/studentpojo", "root", "root");
+			Statement st  =  con.createStatement();
+			//int row =st.executeUpdate("insert into student(sid,sname,sage,squal) values (2,'siva',25,'m.tech')");
+		    //st.executeUpdate("insert into student(sid,sname,sage,squal) values (3,'fafam',22,'c.tech')");
+		    //st.executeUpdate("insert into student(sid,sname,sage,squal) values (4,'pafam',28,'d.tech')");	
+			//st.executeUpdate("update student set sname = 'dadada' where sid = 1");
+			st.executeUpdate("select * FROM student");
+			//System.out.println("rows updated---->" +row );
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static void main(String[] args) {
+		
+		Dao d  = new Dao();
+		d.insert();
+	}
+
+}
